@@ -1,0 +1,74 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 16.799999237060547
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 45
+          },
+          "nodeIndex": "d_Cliente",
+          "nodeLineageTag": "063c1869-3848-4bef-9e7a-73a0afdf744a",
+          "size": {
+            "height": 348,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 355,
+            "y": 367
+          },
+          "nodeIndex": "d_Loja",
+          "nodeLineageTag": "3a670bf2-baaf-44c8-932e-eef932fdb004",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 713,
+            "y": 19
+          },
+          "nodeIndex": "d_Produto",
+          "nodeLineageTag": "13fd13c3-b8a3-49d1-938b-0387ecd25773",
+          "size": {
+            "height": 303,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 334,
+            "y": 0
+          },
+          "nodeIndex": "f_Vendas",
+          "nodeLineageTag": "28ed4c14-2468-418f-8b5b-a1e222dbe0ab",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 3
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}
