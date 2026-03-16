@@ -10850,6 +10850,25 @@
             "expression": "[Média Dias Real] - [Média Dias Programado]",
             "formatString": "0",
             "lineageTag": "dd47aaf0-1d0d-4d73-a614-64f32acd31d9"
+          },
+          {
+            "name": "Filtro Top 8",
+            "expression": [
+              "",
+              "VAR Ranking = ",
+              "    RANKX(",
+              "        ALLSELECTED(d_Produto), -- Olha para a tabela toda, independente da coluna",
+              "        [Total Sales], ",
+              "        , ",
+              "        DESC",
+              "    )",
+              "RETURN",
+              "IF(Ranking <= 8, 1, 0)",
+              "",
+              ""
+            ],
+            "formatString": "0",
+            "lineageTag": "39c0df35-b687-4fff-aa19-9014390b8737"
           }
         ],
         "partitions": [
