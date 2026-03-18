@@ -104,7 +104,7 @@ This dashboard was developed to provide strategic and operational insights into 
 *   **Data Model:** Optimized Star Schema (Fact and Dimension) architecture.
 *   **Advanced DAX:** Dynamic ranking measures, conditional formatting, and time intelligence (YoY).
 *   **Premium Design:** Sophisticated Dark Mode theme and custom icons.
-*   **Localization:** Fully localized interface for Portuguese (PT-BR) and English (EN) contexts.
+*   **Localization:** Fully localized interface for Portuguese (PT-BR) 
 
 ---
 
